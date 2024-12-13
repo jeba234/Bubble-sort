@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Sort Animation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <p class="header">Bubble Sort Animation</p>
+        <div class="input-container">
+            <label for="array-size">Enter Number of Elements:</label>
+            <input type="number" id="array-size" min="5" max="50" value="5">
+            <button onclick="generateInputFields()">Generate Input Fields</button>
+        </div>
+        <div id="input-elements" class="input-elements"></div>
+        <button onclick="startSort()">Start Sorting</button>
+        <div id="array"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
